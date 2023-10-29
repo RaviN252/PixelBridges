@@ -1,0 +1,93 @@
+.earn,
+#second {
+  width: 100%;
+  padding: 50px;
+}
+.earn p,
+h1 {
+  margin: 10px;
+}
+.earn p {
+  color: silver;
+}
+
+#earnContainer {
+  display: flex;
+  line-height: 35px;
+  text-align: left;
+  margin-top: 20px;
+  border: 0.5px solid rgb(73, 72, 72);
+}
+#earnCard1,
+#earnCard2 {
+  width: 50%;
+  text-align: left;
+  color: silver;
+  border: 0.5px solid rgb(73, 72, 72);
+}
+#earnCard1 {
+  margin-right: 10px;
+}
+#earnCard1 div,
+#earnCard2 div {
+  width: 100%;
+  display: flex;
+  border-bottom: 0.5px solid rgb(73, 72, 72);
+  padding-left: 10px;
+  border-radius: 4px;
+}
+#earnCard1 h1,
+#earnCard2 h1 {
+  border: 0.5px solid rgb(73, 72, 72);
+}
+#earnCard1 div {
+  border-top: 0.5px solid rgb(73, 72, 72);
+  border-right: 0.5px solid rgb(73, 72, 72);
+}
+#earnCard2 div {
+  border-top: 0.5px solid rgb(73, 72, 72);
+  border-left: 0.5px solid rgb(73, 72, 72);
+}
+#earnCard1 div span:last-child,
+#earnCard2 div span:last-child {
+  text-align: right;
+  width: 50%;
+  color: white;
+}
+#earnCard1 div span:first-child,
+#earnCard2 div span:first-child {
+  text-align: left;
+  width: 50%;
+}
+#btn {
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  background-color: rgb(16, 212, 163);
+
+  color: white;
+  border-radius: 4px;
+}
+#btnSell,
+#btnBuy,
+#btnCollect {
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  background-color: rgb(16, 212, 163);
+  margin: 7px;
+  color: white;
+  border-radius: 4px;
+}
+#btnCollect:hover {
+  background-color: rgb(12, 179, 137);
+}
+#btnBuy:hover {
+  background-color: rgb(12, 179, 137);
+}
+#btnSell:hover {
+  background-color: rgb(12, 179, 137);
+}
+#btn:hover {
+  background-color: rgb(12, 179, 137);
+}
